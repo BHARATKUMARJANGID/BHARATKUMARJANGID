@@ -1,45 +1,119 @@
 <html>
-    <head>
-        <title>
-            logining page
-        </title>
-    </head><center></body>
-        <style>
-            h1{
-                color: blue;
-            }
-        </style>
-        <style>
-            .login-container{
-                background-color: white;
-                padding: 40px;
-                border-radius: 8px;
-                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) ;
-                width: 300px;
+  <head>
+    <!-- Meta data-->
+    <title>Basic HTML</title>
+  </head>
 
-            }
-        </style>
-        <h1>Facebook</h1>
-        <Div class="login-container">
-        <p><h4>log in to Facebook</h4></p>
-        <div class="email">
-        <input type="text" name="username" id="name" placeholder="Email Address or mobile number"/><p></p>
+
+  <body>
+    <!-- list : ul ,ol, .... -->
+    <!-- Button , anchor , center, -->
+     <ul>
+
+      <li>item-1</li>
+      <li>item-2</li>
+      <li>item-3</li>
+     </ul>
+
+
+    <ol>
+
+
+
+
+      <li>item-1</li>
+      <li>item-2</li>
+      <li>item-3</li>
+      <li>item-4</li>
+    </ol>
+
+    <button>Click here...</button>
+    <center>
+      <a target="_blank" href="http://www.nasa.gov/"> open nasa website </a>
+    </center>
+
+    <!-- /Form inputs -->
+
+    <form= class="white-paper">
+      <!-- Multiple inputs -->
+       <div class="first-input">
+        <center>
+        <label>First Name :</label>
+        <input type="text" placeholder=" Enter First Name"/>
+        </center>
+       </div>
+      
+       <div class="first-input">
+        <center>
+        <label>Last Name :</label>
+        <input type="text" placeholder=" Enter last Name"/>
+        </center>
+       </div>
+        
+       <div class="second-input">
+        <center>
+        <label>Email :</label>
+        <input type="Email Address" placeholder=" Enter Email Address"/>
+        </center>
+       </div>
+         
+       <div class="third-input">
+        <center>
+        <label>Password :</label>
+        <input type="password"/>
+        </center>
+       </div>
+
+       <div class="Gender">
+        <center>
+        <label>Gender :</label>
+        <p><input type="radio" name="gender"/><label>Male</label></p>
+        <P><input type="radio" name="gender"/><label>Female</label></P>
+        <P><input type="radio" name="gender"/><label>Others</label></P>
+        </center>
         </div>
-        <div class="password">
-        <input type="password" name="password" id="password" placeholder="password"/><p></p>
-        </div>
-        <style>
-            button{
-                width: 200px;
-                height: 50px;
-                color: white;
-                background: blue;
-            }
-        </style>
-        <button type="submit">
-            login
-        </button><p></p>
-        <a target="_blank" href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0">forgot password?</a> <a target="_blank" href="https://www.Facebook.com/r.php">sign up for facebook</a>
-        </Div>
-    </body></center>
+
+        <div class="number-input">
+          <center>
+          <label>Enter Age :</label>
+          <input type="number" placeholder="Enter Age" min="1" max="20"/>
+          </center>
+         </div>
+
+         <div class="preferences-input">
+          <center>
+          <label>Preferences :</label>
+          <p><input type="checkbox" name="Acrylic Painting"/><label>acrylic Painting</label></p>
+          <p><input type="checkbox" name="Oil painting"/><label>Oil Painting</label></p>
+          <p><input type="checkbox" name="Water Painting"/><label>Water Painting</label></p>
+          </center>
+         </div>
+
+         <div class="select-input">
+          <center>
+           <select>
+            <option value="">Students </option>
+            <option value="">Teachers </option>
+            <option value="">Employee </option>
+           </select>
+           </center>
+         </div>
+
+         <div class="bio-input">
+          <center>
+         <label>Bio</label>
+         <textarea>
+
+         </textarea>
+          </center>
+         </div>
+          <div class="btns">
+         <center>
+         <button>Reset</button>
+         <button>Submit</button>
+         </center>
+         </div>
+    </form>
+  </body>
+
 </html>
